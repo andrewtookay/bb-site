@@ -103,8 +103,6 @@ for (let i = 0; i < totalBubbles; i++) {
   createBubble(i);
 }
 
-const numPoppedElem = document.getElementById("num-popped");
-
 function createBubble(i) {
   const bubbleWrapper = document.createElement("div");
   bubbleWrapper.classList.add("bubble-wrapper");
@@ -148,7 +146,6 @@ function createBubble(i) {
 
     // Increment the popped bubble counter
     numPoppedBubbles++;
-    numPoppedElem.innerHTML = numPoppedBubbles;
     if (numPoppedBubbles == 3) {
       initializeTypewriter();
     }
