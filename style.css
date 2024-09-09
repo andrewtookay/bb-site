@@ -310,11 +310,15 @@ body {
   }
 
   #about-btn {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #about-container > img {
     display: none;
+  }
+
+  #about-us p {
+    font-size: 0.9rem;
   }
 
   #about-us p,
