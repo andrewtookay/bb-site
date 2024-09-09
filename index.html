@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bubble Breaker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Main Welcome Section -->
+    <div id="main-section" class="gameboard">
+      <div class="main-background"></div>
+      <div
+        id="title"
+        class="typewrite"
+        data-period="3000"
+        data-type='[ "bubble breaker", "You thought this was just a game?", "It is not.", "All of us are stuck in thought bubbles." ]'
+      >
+        <span class="wrap">bubble breaker</span>
+      </div>
+      <div class="score">Popped bubbles <span id="num-popped">0</span></div>
+    </div>
+
+    <div id="about-btn" class="small" onclick="toAboutUs()">About Us</div>
+    <div id="back-btn" class="small" onclick="backHome()">Back</div>
+
+    <!-- About Us Section -->
+    <div id="about-us">
+      <img src="background.jpg" alt="Mock-up" width="600" height="600" />
+      <div>
+        <h2>About Us</h2>
+        <p>
+          Welcome to Bubble Breaker, the ultimate bubble-popping experience! Our
+          team is passionate about fun and entertainment, bringing you a
+          delightful and addictive bubble popping game. Join us in the journey
+          and let's break some bubbles together!
+        </p>
+        <p>
+          Welcome to Bubble Breaker, the ultimate bubble-popping experience! Our
+          team is passionate about fun and entertainment, bringing you a
+          delightful and addictive bubble popping game. Join us in the journey
+          and let's break some bubbles together!
+        </p>
+        <p>
+          Welcome to Bubble Breaker, the ultimate bubble-popping experience! Our
+          team is passionate about fun and entertainment, bringing you a
+          delightful and addictive bubble popping game. Join us in the journey
+          and let's break some bubbles together!
+        </p>
+        <p style="display: flex; align-items: center">
+          Follows us on
+          <a
+            href="https://twitter.com/intent/tweet?url=YOUR_URL&text=YOUR_TEXT"
+            target="_blank"
+          >
+            <img
+              src="x-logo.svg"
+              alt="X logo"
+              style="width: 36px; height: 36px; margin-left: 10px"
+            />
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
