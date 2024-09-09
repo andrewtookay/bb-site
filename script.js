@@ -18,7 +18,7 @@ function toAboutUs() {
     backBtn.style.borderRadius = "0px 14px 14px 0px";
     backBtn.style.width = "7vw";
     backBtn.style.height = "4.5vh";
-    backBtn.style.top = "3vh";
+    backBtn.style.top = "10vh";
     backBtn.style.left = "0vw";
     backBtn.style.display = "flex";
     backBtn.style.opacity = "100%";
@@ -54,7 +54,7 @@ function backHome() {
     aboutBtn.style.borderRadius = "14px 0px 0px 14px";
     aboutBtn.style.width = "11vw";
     aboutBtn.style.height = "4.5vh";
-    aboutBtn.style.bottom = "3vh";
+    aboutBtn.style.bottom = "10vh";
     aboutBtn.style.right = "0vw";
     aboutBtn.style.display = "flex";
     aboutBtn.classList = "small";
